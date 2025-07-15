@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andrade Facilities</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; color: #333; }
+    header { background: #003366; color: white; padding: 20px; text-align: center; }
+    nav { background: #00509e; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 30px; }
+    .servicos { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); width: 300px; }
+    footer { background: #003366; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+    .btn { background: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+    .btn:hover { background: #0056b3; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Andrade Facilities</h1>
+    <p>Excelência em serviços terceirizados para sua empresa ou condomínio</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>A Andrade Facilities é especializada em soluções de limpeza, portaria, manutenção e apoio operacional para empresas, condomínios e instituições. Atuamos com comprometimento, qualidade e eficiência, garantindo a melhor experiência para nossos clientes na zona sul de São Paulo.</p>
+  </section>
+
+  <section id="servicos">
+    <h2>Nossos Serviços</h2>
+    <div class="servicos">
+      <div class="card">
+        <h3>Limpeza Profissional</h3>
+        <p>Serviço de limpeza para empresas, condomínios, hospitais e escolas.</p>
+      </div>
+      <div class="card">
+        <h3>Portaria e Controle de Acesso</h3>
+        <p>Portaria física e remota com profissionais treinados.</p>
+      </div>
+      <div class="card">
+        <h3>Manutenção Predial</h3>
+        <p>Serviços de elétrica, hidráulica, pintura e pequenos reparos.</p>
+      </div>
+      <div class="card">
+        <h3>Jardinagem</h3>
+        <p>Manutenção de áreas verdes com equipe especializada.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Fale Conosco</h2>
+    <p>Entre em contato para solicitar um orçamento personalizado.</p>
+    <form>
+      <input type="text" placeholder="Seu nome" required><br><br>
+      <input type="email" placeholder="Seu e-mail" required><br><br>
+      <textarea placeholder="Digite sua mensagem" rows="5" required></textarea><br><br>
+      <button class="btn" type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Andrade Facilities | Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
